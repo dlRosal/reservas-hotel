@@ -1,0 +1,62 @@
+/* Fondo de la interfaz */
+.root {
+    -fx-background-color: #98FB98; /* Verde claro */
+    -fx-font-family: Calibri;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Estilos para los botones de confirmación */
+.boton-confirmar {
+    -fx-background-color: #4CAF50; /* Verde vibrante */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 1);
+    -fx-transition: background-color 0.3s ease;
+}
+
+.boton-confirmar:hover {
+    -fx-background-color: #45a049; /* Verde más oscuro */
+}
+
+/* Estilos para el botón de cancelación */
+.boton-cancelar {
+    -fx-background-color: #FF5722; /* Naranja vibrante */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 1);
+    -fx-transition: background-color 0.3s ease;
+}
+
+.boton-cancelar:hover {
+    -fx-background-color: #e64a19; /* Naranja más oscuro */
+}
+
+/* Estilos para el botón de limpiar */
+.boton-limpiar {
+    -fx-background-color: #FFC107; /* Amarillo brillante */
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 1);
+    -fx-transition: background-color 0.3s ease;
+}
+
+.boton-limpiar:hover {
+    -fx-background-color: #ffca28; /* Amarillo más oscuro */
+}
+
+/* Estilos para la etiqueta del título */
+.etiqueta-titulo {
+    -fx-font-size: 22px; /* Aumentar tamaño de fuente */
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+    -fx-text-fill: #2196F3; /* Azul brillante */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 1);
+}
